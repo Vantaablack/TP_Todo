@@ -8,7 +8,7 @@ public class Todo {
     public Todo(Long id, String description) {
         this.id = id;
         this.description = description;
-        this.termine = false; 
+        this.termine = false;
     }
 
     public Long getId() {
@@ -19,16 +19,12 @@ public class Todo {
         return description;
     }
 
-    public Boolean isTermine() {
-        return termine;
-    }
-
     public void setDescription(String description) {
         this.description = description;
     }
 
-    public void setTermine(Boolean termine) {
-        this.termine = termine;
+    public Boolean isTermine() {
+        return termine;
     }
 
     public void terminer() {
